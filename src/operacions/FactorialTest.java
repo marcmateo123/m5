@@ -14,9 +14,10 @@ public class FactorialTest {
 	}
 
 	@Test
-	public void test1() {
-		assertEquals(120, fn.factorialIteratiu(5), 0.001);
-	}
+	public void test2() {
+		assertEquals(120, fn.factorialRecursiu(5), 0.001);
+		}
+
 
 	@Test(expected = IllegalArgumentException.class)
 	public void getExceptionTest() {
